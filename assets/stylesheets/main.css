@@ -1,0 +1,138 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+#top_row{
+	text-align: right;
+	padding: 10px 50px;
+	background-color: bisque;
+}
+#phone{
+	color:darkred;
+	font-size: 20px;
+}
+#header_content{
+	width: 100%;
+	background-color: bisque;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+header img{
+	width: 15%;
+	height: 2.5%;
+	object-fit: cover;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: flex;
+}
+nav ul li{
+	padding: 0 15px;
+}
+
+nav ul li a{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+body #home_image{
+	width: 100%;
+	height: 50vh;
+	object-fit: fill;
+	display: block;
+}
+#company_name{
+	color: black;
+	font-size: 50px;
+	text-align: center;
+}
+
+#company_title{
+	color: darkred;
+	font-size: 25px;
+	text-align: center;
+}
+
+#company_bio{
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	padding: 50px;
+}
+#company_info_segment{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 20px;
+}
+#company_address{
+	display: inline-block;
+	background-color: bisque;
+	padding: 50px;
+	text-align: center;
+}
+
+#company_address span{
+	font-size: 16px;
+	color: black;
+	display: block;
+	margin-bottom: 5px;
+}
+
+#company_hours{
+	display: inline-block;
+	background-color: bisque;
+	padding: 50px;
+	text-align: center;
+}
+
+#company_hours span{
+	font-size: 16px;
+	color: black;
+	display: block;
+	margin-bottom: 5px;
+}
+
+footer {
+	background-color: darkred;
+	text-align: center;
+	padding: 10px;
+}
+footer section{
+	vertical-align: top;
+	display: inline-block;
+	padding: 10px;
+	width: 33%;
+	box-sizing: border-box;
+}
+
+footer #footer_company_info span{
+	font-size: 16px;
+	color: white;
+	display: block;
+}
+
+footer #footer_logo img{
+	width: 25%;
+	height: 5%;
+	display: block;
+	margin: 0 auto;
+}
+
+footer #footer_company_hours span{
+	font-size: 16px;
+	color: white;
+	display: block;
+}
