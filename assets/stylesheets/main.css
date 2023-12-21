@@ -4,28 +4,33 @@ html, body{
 	height: 100%;
 	width: 100%;
 	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
 }
 #top_row{
 	text-align: right;
-	padding: 10px 50px;
-	background-color: bisque;
+	background-color: rgb(250, 245, 234);
+	width: 100%;
+	border: 1px solid black;
+	border-bottom: none;
 }
 #phone{
-	color:darkred;
+	color:rgb(165, 32, 31);
 	font-size: 20px;
+	padding: 25px;
 }
 #header_content{
 	width: 100%;
-	background-color: bisque;
+	background-image: linear-gradient(to top, rgb(211, 192, 153), rgb(250, 245, 234));
 	color: black;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+	border: 1px solid black;
+	border-top: none;
 }
 header img{
-	width: 15%;
+	width: 25%;
 	height: 2.5%;
-	object-fit: cover;
 }
 nav ul{
 	list-style-type: none;
@@ -55,21 +60,22 @@ body #home_image{
 }
 #company_name{
 	color: black;
-	font-size: 50px;
+	font-size: 2.2rem;
 	text-align: center;
 }
 
 #company_title{
-	color: darkred;
-	font-size: 25px;
+	color: rgb(94, 33, 31);
+	font-size: 1.8rem;
 	text-align: center;
 }
 
 #company_bio{
 	color: black;
-	font-size: 20px;
+	font-size: 1rem;
 	text-align: center;
 	padding: 50px;
+	line-height: 1.8;
 }
 #company_info_segment{
 	display: flex;
@@ -79,34 +85,34 @@ body #home_image{
 }
 #company_address{
 	display: inline-block;
-	background-color: bisque;
+	background-color: rgb(250, 245, 234);
 	padding: 50px;
 	text-align: center;
 }
 
 #company_address span{
-	font-size: 16px;
+	font-size: 1rem;
 	color: black;
 	display: block;
-	margin-bottom: 5px;
+	padding: 5px;
 }
 
 #company_hours{
 	display: inline-block;
-	background-color: bisque;
+	background-color: rgb(250, 245, 234);
 	padding: 50px;
 	text-align: center;
 }
 
 #company_hours span{
-	font-size: 16px;
+	font-size: 1rem;
 	color: black;
 	display: block;
-	margin-bottom: 5px;
+	padding: 5px;
 }
 
 footer {
-	background-color: darkred;
+	background-color: rgb(94, 33, 31);
 	text-align: center;
 	padding: 10px;
 }
@@ -119,9 +125,10 @@ footer section{
 }
 
 footer #footer_company_info span{
-	font-size: 16px;
+	font-size: 1rem;
 	color: white;
 	display: block;
+	padding: 5px;
 }
 
 footer #footer_logo img{
@@ -132,7 +139,14 @@ footer #footer_logo img{
 }
 
 footer #footer_company_hours span{
-	font-size: 16px;
+	font-size: 1rem;
+	color: white;
+	display: block;
+	padding: 5px;
+}
+
+footer #footer_company_hours a{
+	font-size: 1rem;
 	color: white;
 	display: block;
 }
