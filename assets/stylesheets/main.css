@@ -150,3 +150,20 @@ footer #footer_company_hours a{
 	color: white;
 	display: block;
 }
+#about{
+	margin-left: 50px;
+}
+.fam_info{
+	display: flex;
+	align-items: center;
+	margin-left: 50px;
+	padding: 10px;
+}
+.fam_info p{
+	flex: 1;
+}
+.placeholder{
+	width: 5%;
+	height: 10%;
+	margin-right: 50px;
+}
